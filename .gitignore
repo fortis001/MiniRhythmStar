@@ -100,3 +100,5 @@ InitTestScene*.unity*
 
 Assets/StreamingAssets/Beatmaps/**/source.ogg
 Assets/StreamingAssets/Beatmaps/**/cover.jpg
+.vs/
+
