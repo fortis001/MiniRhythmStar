@@ -1,0 +1,15 @@
+{
+  "version": 1.0,
+  "songName": "Csikos Post",
+  "artist": "Unknown Artist",
+  "audioFile": "source.ogg",
+  "coverImage": "cover.jpg",
+  "previewTime": 0,
+  "bpm": 120.0,
+  "availableDifficulties": [
+    {
+      "mode": "Shared",
+      "path": "chart_shared.json"
+    }
+  ]
+}
