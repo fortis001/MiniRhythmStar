@@ -14,6 +14,7 @@ Unity로 제작한 리듬게임 포트폴리오 프로젝트입니다.
 - Unity 6000.0.44f1
 - C# / Visual Studio Code
 - Newtonsoft.Json
+- StandaloneFileBrowser
 
 ## 5. 주요 기능
 - 로컬 음원 기반 비트맵 에디터 (노트 배치, 저장, 로드)
@@ -23,6 +24,29 @@ Unity로 제작한 리듬게임 포트폴리오 프로젝트입니다.
 - 결과 화면 및 플레이 기록 저장
 
 ## 6. 아키텍처
+### 씬 초기화 구조
+각 씬의 SceneManager가 전역 데이터 창구 역할을 담당합니다.
+전역 객체(GameManager 등)에 대한 접근은 SceneManager에서만 이루어지고,
+나머지 객체들은 SceneManager로부터 필요한 데이터를 전달받습니다.
+
+### 씬 전환 시스템
+TransitionManager와 SceneLoader의 역할을 분리했습니다.
+- TransitionManager: 페이드 인/아웃 및 씬 전환 흐름 제어
+- SceneLoader: 비동기 씬 로딩 및 진행률 표시
+- 로딩 씬 사용 여부를 선택할 수 있는 유연한 구조
+- Time.unscaledDeltaTime으로 일시정지 중에도 페이드 동작 보장
+
+### 커스텀 ScrollView
+Unity 기본 ScrollRect를 확장해 직접 구현했습니다.
+- Idle / Dragging / Coasting / Snapping 상태 머신 기반
+- AnimationCurve로 중앙 정렬 시 시각적 오프셋 제어
+- 드래그 속도 기반 자동 스냅
+
+### 노트 시스템
+- Queue 기반 노트 스케줄링으로 효율적인 타이밍 제어
+- 오브젝트 풀링으로 노트 생성/파괴 비용 절감
+- Newtonsoft.Json으로 차트 데이터 역직렬화
+
 (다이어그램 추가 예정)
 
 ## 7. 고민했던 부분들
