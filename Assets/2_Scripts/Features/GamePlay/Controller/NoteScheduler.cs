@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using MyGame.Core.Managers;
@@ -18,15 +19,17 @@ namespace MyGame.Gameplay
         private float _chartOffset;
         private bool _hasNext;
 
-
+        public event Action OnGameEnd;
 
         private void Awake()
         {
             _laneBuilder.OnLaneSetupCompleted += OnLanesReady;
         }
 
-        public void Init(Queue<RuntimeNote> noteQueue, float chartOffset)
+        public void Init(Queue<RuntimeNote> noteQueue, float chartOffset, float noteTravelTime)
         {
+            _noteTravelTime = noteTravelTime;
+
             _noteQueue.Clear();
             _noteQueue = noteQueue;
             _chartOffset = chartOffset;
@@ -36,10 +39,6 @@ namespace MyGame.Gameplay
 
         public void OnLanesReady(NoteLane[] activeNoteLanes)
         {
-            if (GameManager.Instance != null)
-            {
-                _noteTravelTime = GameManager.Instance.NoteTravelTime;
-            }
             _activeNoteLanes = activeNoteLanes;    
         }
 
@@ -69,7 +68,7 @@ namespace MyGame.Gameplay
         private IEnumerator EndGameAfterDelay()
         {
             yield return new WaitForSeconds(_noteTravelTime + 2f);
-            GameManager.Instance.EndGamePlay();
+            OnGameEnd?.Invoke();
         }
 
         private void Spawn(RuntimeNote info)

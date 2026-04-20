@@ -3,40 +3,8 @@
   "WorkspaceRootPath": "E:\\Unity\\Project\\MiniRhythmStar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|E:\\Unity\\Project\\MiniRhythmStar\\assets\\2_scripts\\features\\result\\resultscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\features\\result\\resultscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|e:\\unity\\project\\minirhythmstar\\assets\\2_scripts\\features\\gameplay\\system\\gamescenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\features\\gameplay\\system\\gamescenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|E:\\Unity\\Project\\MiniRhythmStar\\assets\\2_scripts\\features\\songselect\\songselectscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\features\\songselect\\songselectscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|E:\\Unity\\Project\\MiniRhythmStar\\assets\\2_scripts\\features\\songselect\\songselectuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\features\\songselect\\songselectuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|e:\\unity\\project\\minirhythmstar\\assets\\2_scripts\\ui\\components\\scrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\ui\\components\\scrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|E:\\Unity\\Project\\MiniRhythmStar\\assets\\2_scripts\\core\\managers\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\core\\managers\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|E:\\Unity\\Project\\MiniRhythmStar\\assets\\2_scripts\\features\\gameplay\\controller\\gameuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\features\\gameplay\\controller\\gameuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|E:\\Unity\\Project\\MiniRhythmStar\\assets\\2_scripts\\core\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\core\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|E:\\Unity\\Project\\MiniRhythmStar\\assets\\2_scripts\\core\\managers\\transitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\core\\managers\\transitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,127 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameSceneManager.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\GamePlay\\System\\GameSceneManager.cs",
-              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Features\\GamePlay\\System\\GameSceneManager.cs",
-              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\GamePlay\\System\\GameSceneManager.cs",
-              "RelativeToolTip": "Assets\\2_Scripts\\Features\\GamePlay\\System\\GameSceneManager.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T06:30:30.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ScrollController.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\UI\\Components\\ScrollController.cs",
-              "RelativeDocumentMoniker": "Assets\\2_Scripts\\UI\\Components\\ScrollController.cs",
-              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\UI\\Components\\ScrollController.cs",
-              "RelativeToolTip": "Assets\\2_Scripts\\UI\\Components\\ScrollController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAA1wGEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T06:22:34.444Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GameUIManager.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\GamePlay\\Controller\\GameUIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Features\\GamePlay\\Controller\\GameUIManager.cs",
-              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\GamePlay\\Controller\\GameUIManager.cs",
-              "RelativeToolTip": "Assets\\2_Scripts\\Features\\GamePlay\\Controller\\GameUIManager.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADwv0AAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T03:59:31.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SongSelectUIManager.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\SongSelect\\SongSelectUIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Features\\SongSelect\\SongSelectUIManager.cs",
-              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\SongSelect\\SongSelectUIManager.cs",
-              "RelativeToolTip": "Assets\\2_Scripts\\Features\\SongSelect\\SongSelectUIManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T13:07:26.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SongSelectSceneManager.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\SongSelect\\SongSelectSceneManager.cs",
-              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Features\\SongSelect\\SongSelectSceneManager.cs",
-              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\SongSelect\\SongSelectSceneManager.cs",
-              "RelativeToolTip": "Assets\\2_Scripts\\Features\\SongSelect\\SongSelectSceneManager.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T12:50:12.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ResultSceneManager.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\Result\\ResultSceneManager.cs",
-              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Features\\Result\\ResultSceneManager.cs",
-              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\Result\\ResultSceneManager.cs",
-              "RelativeToolTip": "Assets\\2_Scripts\\Features\\Result\\ResultSceneManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T12:49:39.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "GameManager.cs",
               "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Core\\Managers\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\2_Scripts\\Core\\Managers\\GameManager.cs",
               "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Core\\Managers\\GameManager.cs",
               "RelativeToolTip": "Assets\\2_Scripts\\Core\\Managers\\GameManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwEgAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA0wEgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-11T12:50:14.598Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SoundManager.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Core\\Managers\\SoundManager.cs",
-              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Core\\Managers\\SoundManager.cs",
-              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Core\\Managers\\SoundManager.cs",
-              "RelativeToolTip": "Assets\\2_Scripts\\Core\\Managers\\SoundManager.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAA8wAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T10:53:56.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TransitionManager.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Core\\Managers\\TransitionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Core\\Managers\\TransitionManager.cs",
-              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Core\\Managers\\TransitionManager.cs",
-              "RelativeToolTip": "Assets\\2_Scripts\\Core\\Managers\\TransitionManager.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAwIsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T10:45:11.612Z"
             }
           ]
         }

@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using MyGame.Common.Constants;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -20,7 +21,7 @@ public class SceneLoader : MonoBehaviour
     {
         if (string.IsNullOrEmpty(TargetSceneName))
         {
-            //에러 UI 띄우고 타이틀 화면으로 복귀
+            SceneManager.LoadScene(SceneNames.Title);
             return;
         }
 

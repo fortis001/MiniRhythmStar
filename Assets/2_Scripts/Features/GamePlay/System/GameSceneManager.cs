@@ -39,6 +39,8 @@ public class GameSceneManager : MonoBehaviour
         _UIManager.OnResumeBtnClicked += HandlePauseToggle;
 
         _UIManager.OnRestartBtnClicked += HandleRestart;
+
+        _noteScheduler.OnGameEnd += HandleGameEnd;
     }
 
     private void Start()
@@ -53,7 +55,7 @@ public class GameSceneManager : MonoBehaviour
         _laneBuilder.Init(_levelData);
         _notePoolManager.Init(_levelData);
         _UIManager.Init(_difficultyData);
-        _noteScheduler.Init(noteQueue, chartData.Offset);
+        _noteScheduler.Init(noteQueue, chartData.Offset, GameManager.Instance.NoteTravelTime);
 
         _isPlaying = true;
 
@@ -88,6 +90,13 @@ public class GameSceneManager : MonoBehaviour
     {
         TransitionManager.Instance.LoadNextScene(SceneNames.Game);
     }
+
+    private void HandleGameEnd()
+    {
+        GameManager.Instance.EndGamePlay();
+    }
+
+
 
     private void OnDestroy()
     {
