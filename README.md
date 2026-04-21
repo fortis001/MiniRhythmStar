@@ -50,8 +50,8 @@ Unity 기본 ScrollRect를 확장해 직접 구현했습니다.
 (다이어그램 추가 예정)
 
 ## 7. 샘플 코드
-[TransitionManager](Assets/2_Scripts/Core/Managers/TransitionManager.cs)
-[커스텀 ScrollView](Assets/2_Scripts/UI/Components/ScrollController.cs)
+- [TransitionManager](Assets/2_Scripts/Core/Managers/TransitionManager.cs)
+- [커스텀 ScrollView](Assets/2_Scripts/UI/Components/ScrollController.cs)
 
 ## 8. 고민했던 부분들
 첫 개인 프로젝트인 만큼 코드 구조에 집중했습니다.
