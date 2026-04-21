@@ -33,7 +33,7 @@ Unity로 제작한 리듬게임 포트폴리오 프로젝트입니다.
 TransitionManager와 SceneLoader의 역할을 분리했습니다.
 - TransitionManager: 페이드 인/아웃 및 씬 전환 흐름 제어
 - SceneLoader: 비동기 씬 로딩 및 진행률 표시
-- 로딩 씬 사용 여부를 선택할 수 있는 유연한 구조
+- 로딩 씬 사용 여부를 선택할 수 있는 구조
 - Time.unscaledDeltaTime으로 일시정지 중에도 페이드 동작 보장
 
 ### 커스텀 ScrollView
@@ -49,7 +49,11 @@ Unity 기본 ScrollRect를 확장해 직접 구현했습니다.
 
 (다이어그램 추가 예정)
 
-## 7. 고민했던 부분들
+## 7. 샘플 코드
+[TransitionManager](Assets/2_Scripts/Core/Managers/TransitionManager.cs)
+[커스텀 ScrollView](Assets/2_Scripts/UI/Components/ScrollController.cs)
+
+## 8. 고민했던 부분들
 첫 개인 프로젝트인 만큼 코드 구조에 집중했습니다.
 
 - **씬 초기화 구조**: 씬매니저가 전역 데이터 창구 역할을 담당하고, 각 객체는 GameManager를 직접 참조하지 않도록 설계했습니다.
@@ -57,7 +61,7 @@ Unity 기본 ScrollRect를 확장해 직접 구현했습니다.
 - **오브젝트 풀링**: 노트 생성/파괴 비용을 줄이기 위해 NotePoolManager를 구현했습니다.
 - **ScriptableObject**: 난이도별 데이터를 코드에서 분리해 Inspector에서 관리했습니다.
 
-## 8. 개선 가능한 부분
+## 9. 개선 가능한 부분
 - 멀티 해상도 완전 지원
 - 비트맵 에디터 편의 기능 (노트 다중 선택, 복사/붙여넣기 등)
 - SoundManager의 클립 로딩 책임 분리
