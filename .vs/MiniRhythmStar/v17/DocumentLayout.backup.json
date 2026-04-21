@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "E:\\Unity\\Project\\MiniRhythmStar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|E:\\Unity\\Project\\MiniRhythmStar\\assets\\2_scripts\\core\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\core\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|e:\\unity\\project\\minirhythmstar\\assets\\2_scripts\\features\\gameplay\\system\\gamescenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\features\\gameplay\\system\\gamescenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|e:\\unity\\project\\minirhythmstar\\assets\\2_scripts\\features\\gameplay\\controller\\notescheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\features\\gameplay\\controller\\notescheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|e:\\unity\\project\\minirhythmstar\\assets\\2_scripts\\ui\\components\\scrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\ui\\components\\scrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Core\\Managers\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Core\\Managers\\GameManager.cs",
-              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Core\\Managers\\GameManager.cs",
-              "RelativeToolTip": "Assets\\2_Scripts\\Core\\Managers\\GameManager.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAA0wEgAAAApAAAAAAAAAA==",
+              "Title": "GameSceneManager.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\GamePlay\\System\\GameSceneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Features\\GamePlay\\System\\GameSceneManager.cs",
+              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\GamePlay\\System\\GameSceneManager.cs",
+              "RelativeToolTip": "Assets\\2_Scripts\\Features\\GamePlay\\System\\GameSceneManager.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAqwFUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T12:50:14.598Z",
+              "WhenOpened": "2026-04-20T07:15:46.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NoteScheduler.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\GamePlay\\Controller\\NoteScheduler.cs",
+              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Features\\GamePlay\\Controller\\NoteScheduler.cs",
+              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\GamePlay\\Controller\\NoteScheduler.cs",
+              "RelativeToolTip": "Assets\\2_Scripts\\Features\\GamePlay\\Controller\\NoteScheduler.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwDoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:14:19.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScrollController.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\UI\\Components\\ScrollController.cs",
+              "RelativeDocumentMoniker": "Assets\\2_Scripts\\UI\\Components\\ScrollController.cs",
+              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\UI\\Components\\ScrollController.cs",
+              "RelativeToolTip": "Assets\\2_Scripts\\UI\\Components\\ScrollController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwPcAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T07:12:27.31Z",
               "EditorCaption": ""
             }
           ]

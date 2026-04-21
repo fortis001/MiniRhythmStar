@@ -22,6 +22,7 @@ public class GameSceneManager : MonoBehaviour
 
     private DifficultyData _difficultyData;
     private LevelData _levelData;
+    private float _noteTravelTime;
 
     private bool _isPlaying;
 
@@ -29,6 +30,7 @@ public class GameSceneManager : MonoBehaviour
     {
         _difficultyData = GameManager.Instance.SelectedDifficulty;
         _levelData = GameManager.Instance.LevelData;
+        _noteTravelTime = GameManager.Instance.NoteTravelTime;
 
         _laneBuilder.OnNoteWidthCalculated += _notePoolManager.HandleNoteWidthCalculated;
 
@@ -55,7 +57,7 @@ public class GameSceneManager : MonoBehaviour
         _laneBuilder.Init(_levelData);
         _notePoolManager.Init(_levelData);
         _UIManager.Init(_difficultyData);
-        _noteScheduler.Init(noteQueue, chartData.Offset, GameManager.Instance.NoteTravelTime);
+        _noteScheduler.Init(noteQueue, chartData.Offset, _noteTravelTime);
 
         _isPlaying = true;
 
