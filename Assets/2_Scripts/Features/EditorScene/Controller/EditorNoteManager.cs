@@ -56,6 +56,7 @@ public class EditorNoteManager : MonoBehaviour
         float centerX = _activeLanes[laneIndex].CenterX;
 
         EditorNote note = Instantiate(_notePrefab, _noteChart);
+        Debug.Log($"Width : {_laneWidth} XPos : {centerX}");
         note.Initialize(laneIndex, timeInSeconds, new Vector2(centerX, yPos), _laneWidth);
 
         note.OnPositionChanged += HandleNoteUpdate;

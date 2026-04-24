@@ -35,8 +35,11 @@ public class EditorNote : MonoBehaviour,
     {
         _laneIndex = laneIndex;
         _timeInSeconds = timeInSeconds;
-        _rectTransform.anchoredPosition = position;
+
         _rectTransform.sizeDelta = new Vector2(width, _rectTransform.sizeDelta.y);
+        _rectTransform.anchoredPosition = position;
+
+ 
         _text.text = $"{laneIndex + 1}";
     }
 

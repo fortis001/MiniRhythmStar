@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using MyGame.Common.Enums;
 using MyGame.Core.Managers;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TimelineSetup : MonoBehaviour
 {
+    [SerializeField] private ScrollRect _scrollRect;
     [SerializeField] private RectTransform _viewport;
     [SerializeField] private RectTransform _content;
     [SerializeField] private EditorNoteManager _noteManager;
@@ -22,24 +24,27 @@ public class TimelineSetup : MonoBehaviour
     public void SetClip(AudioClip clip)
     {
         _currentClip = clip;
-        BuildTimeline(_currentClip, _currentLevel);
+        BuildTimeline();
     }
 
     public void SetLevel(Level level)
     {
         _currentLevel = level;
-        BuildTimeline(_currentClip, _currentLevel);
+        BuildTimeline();
     }
 
 
-    private void BuildTimeline(AudioClip clip, Level level)
+    private void BuildTimeline()
     {
         if (_currentClip == null || _currentLevel == Level.None)
             return;
         ClearTimeline();
 
+
         int laneCount = GetLaneCount(_currentLevel);
-        float contentWidth = _content.rect.width;
+        float scrollbarWidth = _scrollRect.verticalScrollbar.GetComponent<RectTransform>().rect.width;
+        float contentWidth = _content.rect.width - scrollbarWidth;
+
         float laneWidth = contentWidth / laneCount;
 
         float clipLength = _currentClip.length;
