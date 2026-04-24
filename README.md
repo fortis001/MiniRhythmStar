@@ -9,6 +9,7 @@ Unity로 제작한 리듬게임 포트폴리오 프로젝트입니다.
 
 ## 3. 다운로드
 [빌드 다운로드(Itch.io 링크)](https://fortis001.itch.io/minirhythmstar)
+자세한 플레이 설명은 Itch 페이지에 있습니다.
 
 ## 4. 개발 환경
 - Unity 6000.0.44f1
