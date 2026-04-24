@@ -34,6 +34,8 @@ public class EditorSceneManager : MonoBehaviour
         _UIManager.OnLoadButtonClicked += HandleLoad;
 
         _inputManager.OnSpaceKeyPressed += HandleSpacePressed;
+
+        _chartSaveManager.OnBeatmapAdded += HandleBeatmapAdded;
     }
     private void Start()
     {
@@ -90,5 +92,10 @@ public class EditorSceneManager : MonoBehaviour
         {
             HandlePlay();
         }
+    }
+
+    private void HandleBeatmapAdded(string folderPath)
+    {
+        SongDatabaseManager.Instance.Refresh(folderPath);
     }
 }

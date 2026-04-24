@@ -26,52 +26,68 @@ namespace MyGame.Core.Managers
 
         }
 
+        public void Refresh(string folderPath)
+        {
+            LoadMetadata(folderPath);
+        }
 
-        public void LoadMetadata()
+        public void RefreshAll()
+        {
+            ScanBeatmaps();
+        }
+
+        public void RequestMetaData()
+        {
+            if (_isMetaDataReady) OnMetadataReady?.Invoke(_allSongs);
+            else ScanBeatmaps();
+        }
+
+        private void ScanBeatmaps()
         {
             if (_isMetaDataReady) return;
+            _allSongs.Clear();
+            _index.Clear();
 
             string beatmapRoot = Path.Combine(Application.streamingAssetsPath, "Beatmaps");
             string[] songDirs = Directory.GetDirectories(beatmapRoot);
 
             foreach (var dir in songDirs)
             {
-                string folderName = Path.GetFileName(dir);
-                string metaPath = Path.Combine(dir, "metadata.json");
-
-                string json = File.ReadAllText(metaPath);
-
-                SongBaseMeta meta = JsonConvert.DeserializeObject<SongBaseMeta>(json);
-
-                meta.SongID = folderName;
-                meta.SongDirectory = dir;
-
-                foreach (var diff in meta.Difficulties)
-                {
-                    diff.Path = dir;
-                    diff.BeatmapID = $"{meta.SongID}_{diff.RawMode}";
-                    diff.ParentMeta = meta;
-
-                    if (_index.ContainsKey(diff.BeatmapID))
-                        Debug.LogError($"Duplicate difficulty: {diff.BeatmapID}");
-
-                    _index[diff.BeatmapID] = diff;
-                }
-
-                _allSongs.Add(meta);
+                LoadMetadata(dir);
             }
 
             _isMetaDataReady = true;
             OnMetadataReady?.Invoke(_allSongs);
         }
 
-
-
-        public void RequestMetaData()
+        private void LoadMetadata(string dir)
         {
-            if (_isMetaDataReady) OnMetadataReady?.Invoke(_allSongs);
-            else LoadMetadata();
+            string folderName = Path.GetFileName(dir);
+            string metaPath = Path.Combine(dir, "metadata.json");
+
+            string json = File.ReadAllText(metaPath);
+
+            SongBaseMeta meta = JsonConvert.DeserializeObject<SongBaseMeta>(json);
+
+            meta.SongID = folderName;
+            meta.SongDirectory = dir;
+
+            foreach (var diff in meta.Difficulties)
+            {
+                diff.Path = dir;
+                diff.BeatmapID = $"{meta.SongID}_{diff.RawMode}";
+                diff.ParentMeta = meta;
+
+                if (_index.ContainsKey(diff.BeatmapID))
+                    Debug.LogError($"Duplicate difficulty: {diff.BeatmapID}");
+
+                _index[diff.BeatmapID] = diff;
+            }
+
+            _allSongs.Add(meta);
         }
+
+        
 
         public Sprite GetCoverImage(DifficultyData diff)
         {

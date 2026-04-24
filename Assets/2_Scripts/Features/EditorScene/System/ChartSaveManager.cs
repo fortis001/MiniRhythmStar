@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -11,6 +12,8 @@ public class ChartSaveManager : MonoBehaviour
     [SerializeField] private Texture2D _defaultCover;
 
     private readonly string _beatMapsPath = Path.Combine(Application.streamingAssetsPath, "BeatMaps");
+
+    public event Action<string> OnBeatmapAdded;
 
     public void Save(string songName, string rawPath, Level level, IReadOnlyList<EditorNote> notes)
     {
@@ -96,6 +99,13 @@ public class ChartSaveManager : MonoBehaviour
     {
         string chartFileName = $"chart_{level.ToString().ToLower()}.json";
         string beatmapID = $"{NormalizeFolderName(songName)}_{level.ToString().ToLower()}";
+        string chartPath = Path.Combine(songFolder, chartFileName);
+
+        if (File.Exists(chartPath))
+        {
+            Debug.LogWarning($"[Save] 이미 {songName}의 {level} 차트가 존재합니다.");
+            return;
+        }
 
         ChartData chart = new ChartData
         {
@@ -110,7 +120,9 @@ public class ChartSaveManager : MonoBehaviour
             }).ToList()
         };
 
-        string chartPath = Path.Combine(songFolder, chartFileName);
+        
         File.WriteAllText(chartPath, JsonConvert.SerializeObject(chart, Formatting.Indented));
+
+        OnBeatmapAdded?.Invoke(songFolder);
     }
 }

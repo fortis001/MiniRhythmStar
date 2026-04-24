@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "E:\\Unity\\Project\\MiniRhythmStar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|e:\\unity\\project\\minirhythmstar\\assets\\2_scripts\\features\\gameplay\\entities\\notelane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\features\\gameplay\\entities\\notelane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|e:\\unity\\project\\minirhythmstar\\assets\\2_scripts\\features\\editorscene\\controller\\timelinesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\features\\editorscene\\controller\\timelinesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|e:\\unity\\project\\minirhythmstar\\assets\\2_scripts\\features\\gameplay\\system\\gamescenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\features\\gameplay\\system\\gamescenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|e:\\unity\\project\\minirhythmstar\\assets\\2_scripts\\features\\editorscene\\controller\\editornotemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\features\\editorscene\\controller\\editornotemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|e:\\unity\\project\\minirhythmstar\\assets\\2_scripts\\core\\managers\\transitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\core\\managers\\transitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|e:\\unity\\project\\minirhythmstar\\assets\\2_scripts\\features\\editorscene\\entities\\timeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\features\\editorscene\\entities\\timeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|E:\\Unity\\Project\\MiniRhythmStar\\assets\\2_scripts\\features\\gameplay\\controller\\notescheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\features\\gameplay\\controller\\notescheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|E:\\Unity\\Project\\MiniRhythmStar\\assets\\2_scripts\\ui\\components\\scrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\ui\\components\\scrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|e:\\unity\\project\\minirhythmstar\\assets\\2_scripts\\features\\editorscene\\entities\\editornote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E16F3D-D5D0-9AA0-EAAB-B364B1628086}|Assembly-CSharp.csproj|solutionrelative:assets\\2_scripts\\features\\editorscene\\entities\\editornote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,66 +34,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NoteLane.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\GamePlay\\Entities\\NoteLane.cs",
-              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Features\\GamePlay\\Entities\\NoteLane.cs",
-              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\GamePlay\\Entities\\NoteLane.cs",
-              "RelativeToolTip": "Assets\\2_Scripts\\Features\\GamePlay\\Entities\\NoteLane.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvw8AAAA2AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "EditorNote.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\EditorScene\\Entities\\EditorNote.cs",
+              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Features\\EditorScene\\Entities\\EditorNote.cs",
+              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\EditorScene\\Entities\\EditorNote.cs",
+              "RelativeToolTip": "Assets\\2_Scripts\\Features\\EditorScene\\Entities\\EditorNote.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T06:38:40.569Z",
+              "WhenOpened": "2026-04-24T03:27:26.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TransitionManager.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Core\\Managers\\TransitionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Core\\Managers\\TransitionManager.cs",
-              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Core\\Managers\\TransitionManager.cs",
-              "RelativeToolTip": "Assets\\2_Scripts\\Core\\Managers\\TransitionManager.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAmwGoAAAAnAAAAAAAAAA==",
+              "Title": "Timeline.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\EditorScene\\Entities\\Timeline.cs",
+              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Features\\EditorScene\\Entities\\Timeline.cs",
+              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\EditorScene\\Entities\\Timeline.cs",
+              "RelativeToolTip": "Assets\\2_Scripts\\Features\\EditorScene\\Entities\\Timeline.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T06:34:15.039Z",
+              "WhenOpened": "2026-04-24T03:45:35.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TimelineSetup.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\EditorScene\\Controller\\TimelineSetup.cs",
+              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Features\\EditorScene\\Controller\\TimelineSetup.cs",
+              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\EditorScene\\Controller\\TimelineSetup.cs",
+              "RelativeToolTip": "Assets\\2_Scripts\\Features\\EditorScene\\Controller\\TimelineSetup.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T03:23:06.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameSceneManager.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\GamePlay\\System\\GameSceneManager.cs",
-              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Features\\GamePlay\\System\\GameSceneManager.cs",
-              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\GamePlay\\System\\GameSceneManager.cs",
-              "RelativeToolTip": "Assets\\2_Scripts\\Features\\GamePlay\\System\\GameSceneManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvysAAAAAAAAAAAAAAA==",
+              "Title": "EditorNoteManager.cs",
+              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\EditorScene\\Controller\\EditorNoteManager.cs",
+              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Features\\EditorScene\\Controller\\EditorNoteManager.cs",
+              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\EditorScene\\Controller\\EditorNoteManager.cs",
+              "RelativeToolTip": "Assets\\2_Scripts\\Features\\EditorScene\\Controller\\EditorNoteManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwDoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T07:15:46.146Z",
+              "WhenOpened": "2026-04-24T03:16:17.662Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NoteScheduler.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\GamePlay\\Controller\\NoteScheduler.cs",
-              "RelativeDocumentMoniker": "Assets\\2_Scripts\\Features\\GamePlay\\Controller\\NoteScheduler.cs",
-              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\Features\\GamePlay\\Controller\\NoteScheduler.cs",
-              "RelativeToolTip": "Assets\\2_Scripts\\Features\\GamePlay\\Controller\\NoteScheduler.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAIwDoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T07:14:19.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ScrollController.cs",
-              "DocumentMoniker": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\UI\\Components\\ScrollController.cs",
-              "RelativeDocumentMoniker": "Assets\\2_Scripts\\UI\\Components\\ScrollController.cs",
-              "ToolTip": "E:\\Unity\\Project\\MiniRhythmStar\\Assets\\2_Scripts\\UI\\Components\\ScrollController.cs",
-              "RelativeToolTip": "Assets\\2_Scripts\\UI\\Components\\ScrollController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAQwPcAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T07:12:27.31Z"
             }
           ]
         }
