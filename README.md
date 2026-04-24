@@ -42,7 +42,7 @@ TransitionManager와 SceneLoader의 역할을 분리했습니다.
 Unity 기본 ScrollRect를 확장해 직접 구현했습니다.
 - Idle / Dragging / Coasting / Snapping 상태 머신 기반
 - AnimationCurve로 중앙 정렬 시 시각적 오프셋 제어
-- 드래그 속도 기반 자동 스냅
+- 자동 스냅 기능
 
 ### 노트 시스템
 - Queue 기반 노트 스케줄링으로 효율적인 타이밍 제어
