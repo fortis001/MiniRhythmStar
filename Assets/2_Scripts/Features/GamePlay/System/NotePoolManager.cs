@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using MyGame.Core.Managers;
 using UnityEngine;
 using MyGame.Common.DataFormat;
 
