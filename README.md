@@ -1,15 +1,15 @@
 # MiniRhythmStar
 
 ## 1. 개요
-Unity로 제작한 리듬게임 포트폴리오 프로젝트입니다.
+Unity로 제작한 리듬게임 포트폴리오 프로젝트입니다.<br>
 로컬 음원을 업로드해 비트맵을 직접 제작하고 플레이할 수 있습니다.
 
 ## 2. 시연 영상
-[프로젝트 설명 영상 1:40](https://youtu.be/wBGs9CBb9Og)
+[프로젝트 설명 영상 1:40](https://youtu.be/wBGs9CBb9Og)<br>
 [플레이스루 영상 1:00](https://youtu.be/vnTcrf_UVL0)
 
 ## 3. 다운로드
-[빌드 다운로드(Itch.io 링크)](https://fortis001.itch.io/minirhythmstar)
+[빌드 다운로드(Itch.io 링크)](https://fortis001.itch.io/minirhythmstar)<br>
 자세한 플레이 설명은 Itch 페이지에 있습니다.
 
 ## 4. 개발 환경
