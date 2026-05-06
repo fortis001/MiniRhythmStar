@@ -28,8 +28,8 @@ Unity로 제작한 리듬게임 포트폴리오 프로젝트입니다.<br>
 
 ## 6. 아키텍처
 ### 씬 초기화 구조
-각 씬의 SceneManager가 전역 데이터 창구 역할을 담당합니다.
-전역 객체(GameManager 등)에 대한 접근은 SceneManager에서만 이루어지고,
+각 씬의 SceneManager가 초기화 순서를 관리하고, 전역 데이터 창구 역할을 담당합니다.<br>
+전역 객체(GameManager 등)에 대한 접근은 SceneManager에서만 이루어지며<br>
 나머지 객체들은 SceneManager로부터 필요한 데이터를 전달받습니다.
 
 ### 씬 전환 시스템
