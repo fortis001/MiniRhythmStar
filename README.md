@@ -50,8 +50,6 @@ Unity 기본 ScrollRect를 확장해 직접 구현했습니다.
 - 오브젝트 풀링으로 노트 생성/파괴 비용 절감
 - Newtonsoft.Json으로 차트 데이터 역직렬화
 
-(다이어그램 추가 예정)
-
 ## 7. 샘플 코드
 - [TransitionManager](Assets/2_Scripts/Core/Managers/TransitionManager.cs)
 - [커스텀 ScrollView](Assets/2_Scripts/UI/Components/ScrollController.cs)
